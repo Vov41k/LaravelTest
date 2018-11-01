@@ -1,0 +1,25 @@
+
+/*left feedbacks*/
+.scrollable {
+overflow:scroll;
+height: 400px;
+max-height:450px;
+word-wrap: break-word;
+
+
+}
+
+.breack {
+	word-break:break-all;
+}
+label {
+	font-family: 'Mukta', sans-serif;
+}
+.hide-alert-message {
+-webkit-transition: all 6s ease-in-out;
+  -moz-transition: all 6s ease-in-out;
+  -o-transition: all 6s ease-in-out;
+  transition: all 6s ease-in-out;
+  opacity: 0;
+
+}
