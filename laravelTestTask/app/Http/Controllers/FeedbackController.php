@@ -94,7 +94,7 @@ class FeedbackController extends Controller
      */
     public function destroy(Feedback $feedback)
     {
-        $feedback=Feedback::find($feedback->id);
+        
         $feedback->delete();
         return redirect()->route('feedback.index')->with('succesmsg','The feedback was deleted');
     
